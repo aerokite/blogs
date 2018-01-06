@@ -48,7 +48,7 @@ $ cd /etc/kubernetes/manifests
 $ sudo vi kube-apiserver.yaml
 ```
 
-We have to pass following flags to apiserver to for advanced audit. 
+We have to pass following flags to apiserver for advanced audit. 
 ```sh
 # A file with the policy. See more (https://kubernetes.io/docs/tasks/debug-application-cluster/audit/#audit-policy)
 --audit-policy-file=/audit/audit-policy.yaml
